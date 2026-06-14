@@ -1,39 +1,81 @@
-<img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b" alt="School Building" class="school-image">
-<div class="about">
-    <p>
-        Welcome to Ngurunda Primary School. We are committed to providing
-        quality education, nurturing young minds, and building future leaders.
-        Our school promotes academic excellence, discipline, teamwork,
-        and respect within a safe and supportive learning environment.
-    </p>
-</div>
-<div class="cards">
-    <div class="card">
-        <h3>Quality Education</h3>
-        <p>Dedicated teachers committed to academic excellence.</p>
-    </div>
+*{
+margin:0;
+padding:0;
+box-sizing;
+font-family:'Segoe UI',sans-serif;
+}
 
-    <div class="card">
-        <h3>Safe Environment</h3>
-        <p>A secure and welcoming environment for every learner.</p>
-    </div>
+body{
+background;
+color:#333;
+}
 
-    <div class="card">
-        <h3>Modern Learning</h3>
-        <p>Preparing pupils with skills for the future.</p>
-    </div>
-</div>
-<div class="cards">
-    <div class="card">
-        <h3>Sports</h3>
-        <p>Football, athletics, netball and other sporting activities.</p>
-    </div>
+header{
+background:#0b7a28;
+color;
+padding:20px;
+text-align;
+}
 
-    <div class="card">
-        <h3>Clubs</h3>
-        <p>Debate, environmental, culture and leadership clubs.</p>
-    </div>
+nav{
+background:#055c1c;
+padding:15px;
+text-align;
+}
 
+nav a{
+color;
+text-decoration;
+margin:0 15px;
+font-weight;
+}
+
+nav a
+
+.hero{
+background(rgba(0,128,0,.8),rgba(0,128,0,.8)),
+url('images/school.jpg');
+background-size;
+background-position;
+color;
+text-align;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:3rem;
+}
+
+.section{
+padding:60px 10%;
+}
+
+.card{
+background:#f4fff4;
+border-left:5px solid green;
+padding:20px;
+margin:15px 0;
+border-radius:10px;
+}
+
+footer{
+background:#055c1c;
+color;
+text-align;
+padding:20px;
+margin-top:40px;
+}
+
+.gallery{
+display;
+grid-template-columns(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
     <div class="card">
         <h3>Community Service</h3>
         <p>Promoting responsibility and positive citizenship.</p>
